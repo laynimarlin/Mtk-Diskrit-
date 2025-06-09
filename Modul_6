@@ -1,0 +1,19 @@
+angka = int(input("Masukkan bilangan: "))
+
+print (f"Biner       : {bin(angka)}")
+print (f"Oktal       : {oct(angka)}")
+print (f"Heksadesimal: {hex(angka)}")
+
+biner = input("Masukkan bilangan biner: ")
+desimal = int(biner, 2)
+
+print("Desimal     :", desimal)
+print("Oktal       :", oct(desimal))
+print("Heksadesimal:", hex(desimal))
+
+oktal = input("Masukkan bilangan oktal: ")
+desimal2 = int(oktal, 8)
+
+print("Desimal     :", desimal2)
+print("Biner       :", bin(desimal2))
+print("Heksadesimal:", hex(desimal2))
